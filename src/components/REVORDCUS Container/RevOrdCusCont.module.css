@@ -1,0 +1,43 @@
+.outerCont{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 11px;
+    background-color: #fafafa;
+    width: 29%;
+}
+.iconCont{
+    width: 50px;
+    height: 50px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(83, 127, 231);
+    color: #fafafa;
+    font-size: 1.4rem;
+}
+
+.infoCont{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.infoCont p{
+    color: grey;
+    margin-bottom: .5rem;
+    font-size: .8rem;
+    font-weight: 600;
+}
+.infoCont h5{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.profitCont{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto; 
+    text-align: end; 
+    align-self: end;
+
+}

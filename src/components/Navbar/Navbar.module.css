@@ -1,0 +1,41 @@
+.navbarr{
+    height: 70px;
+    padding-left: 2rem;
+    padding-right: 1.5rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbar h3{
+    font-size: 1.3rem;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+.searchIcon{
+    margin-left: auto;
+    font-size: 1.2rem;
+    cursor:pointer
+}
+.flag{
+    width: 25px;
+    height: 25px;
+    margin-left: 1rem;
+    cursor:pointer
+}
+.navIcons{
+    margin-left: 1rem;
+    cursor:pointer
+}
+.notification{
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    cursor:pointer
+}
+.userImage{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 1rem;
+    cursor:pointer
+}
