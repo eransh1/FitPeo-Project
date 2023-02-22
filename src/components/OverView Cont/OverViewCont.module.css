@@ -67,3 +67,14 @@ font-weight: 500;
     margin: auto;
  } 
 }
+
+@media(max-width:730px){
+    .rightCont{
+width: 500px;
+    }  
+}
+@media(max-width:620px){
+    .rightCont{
+width: 100%;
+    }  
+}
