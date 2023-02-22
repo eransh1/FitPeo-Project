@@ -22,7 +22,7 @@
     flex-wrap: wrap;
 }
 .middleEntireDataCont{
-    width: 72%;
+    width: 71%;
     padding-left: 2.2rem;
     overflow-y: scroll;
     height: 90vh;
@@ -38,7 +38,7 @@
     right: 1rem;
     top: 4.4rem;
     overflow-y: scroll;
-    height: 90vh;
+    height: 93vh;
     transition: transform .8s ease;
 }
 .userInfoRightCont::-webkit-scrollbar {
@@ -48,8 +48,12 @@
     margin-top: 1rem;
 }
 .userActivityCont,.orderStatsCont,.topProductsCont{
-    width: 318px;
+    width: 280px;
     margin: auto;
+}
+.orderStatsCont{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .arrowRight{
     cursor: pointer;
@@ -68,7 +72,13 @@
     z-index: 25;
     color: white;  
 }
-@media(max-width:1552px){
+@media(min-width:1536.2px){
+    .middleEntireDataCont{
+        width: 72%;
+    }
+    
+}
+@media(max-width:1535px){
    .innerCont{
     padding-left: 1rem;
    } 

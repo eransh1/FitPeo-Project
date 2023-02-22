@@ -3,6 +3,7 @@
     background-color: #fafafa;
     border-radius: 15px;
     margin: auto;
+    height: 320px;
 }
 
 .title{
@@ -10,4 +11,5 @@
 }
 .chartCont{
     width: 100%;
+    margin-top: 2rem;
 }

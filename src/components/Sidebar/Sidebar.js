@@ -24,8 +24,8 @@ const[isSideBarCalled,setIsSideBarCalled]=useState(true)
 
   useEffect(()=>{
   
-if(width<1552){setIsSideBarCalled(false)}
-if(width>1552){setIsSideBarCalled(true)}
+if(width<1535){setIsSideBarCalled(false)}
+if(width>1535){setIsSideBarCalled(true)}
   },[width])
   return (
    <>

@@ -59,7 +59,7 @@ font-weight: 500;
     width: 620px;
 }
 
-@media(max-width:1552px){
+@media(max-width:1535px){
  .leftCont{
     width: 100%;
  }  
