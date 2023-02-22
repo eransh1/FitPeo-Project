@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from "./Sidebar.module.css"
 import {GiHamburgerMenu} from "react-icons/gi"
 import {MdOutlineSpaceDashboard} from "react-icons/md"
@@ -17,9 +17,16 @@ import {BsFileEarmarkArrowDownFill} from "react-icons/bs"
 import {MdOutlineDesignServices} from "react-icons/md"
 import {FaWpforms} from "react-icons/fa"
 
-const Sidebar = () => {
+const Sidebar = ({width}) => {
 const[isDasboardOpen,setIsDasboardOpen]=useState(true)
 const[isSideBarCalled,setIsSideBarCalled]=useState(true)
+
+
+  useEffect(()=>{
+  
+if(width<1552){setIsSideBarCalled(false)}
+if(width>1552){setIsSideBarCalled(true)}
+  },[width])
   return (
    <>
     <section style={{transform:isSideBarCalled?"translateX(0)":""}} className={styles.sidebar}>

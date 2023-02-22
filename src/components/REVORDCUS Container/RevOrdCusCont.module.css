@@ -5,6 +5,7 @@
     border-radius: 11px;
     background-color: #fafafa;
     width: 29%;
+    margin: auto;
 }
 .iconCont{
     width: 50px;
@@ -40,4 +41,16 @@
     text-align: end; 
     align-self: end;
 
+}
+
+@media(max-width:790px){
+    .outerCont{
+        width: 42%;
+    } 
+}
+
+@media(max-width:600px){
+    .outerCont{
+        width: 100%;
+    }  
 }

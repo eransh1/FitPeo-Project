@@ -1,0 +1,56 @@
+.outerCont{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+}
+.top h3{
+    font-weight: 500;
+}
+.topIcon{
+    margin-left: auto;
+    color: grey;
+    cursor: pointer;
+}
+
+.semiProgressCont{
+    margin-top: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.semiProgressText{
+    position: absolute;
+    left: 42%;
+    bottom: 7px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.progressBarInfoCont{
+    text-align: center;
+    margin-top: 1rem;
+}
+.progressBarInfoCont p{
+    color: grey;
+    font-weight: 600;
+}
+.progressBarInfoCont_info{
+    display: flex;
+    align-items: center;
+    margin-top: .5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid grey;
+}
+
+.progressBarInfoCont_info .percent{
+    color: green;
+    margin: auto;
+    padding: .25rem;
+    border-radius: 6px;
+    background-color: rgba(75, 192, 192, 0.2);
+}

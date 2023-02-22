@@ -4,6 +4,7 @@ import {BsThreeDots} from "react-icons/bs"
 import userImg from "../../images/Ansh Image.jpeg"
 import UserInfoSection from './UserInfoSection/UserInfoSection'
 import UserEarningCont from './User Earning Section/UserEarningCont'
+import RecentActivityCont from '../RecentActivity Cont/RecentActivityCont'
 
 const UserContainer = () => {
   return (
@@ -17,6 +18,7 @@ const UserContainer = () => {
         </div>
         
         <UserEarningCont/>
+        <RecentActivityCont/>
 
     </section>
   )

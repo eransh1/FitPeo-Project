@@ -58,3 +58,12 @@ font-weight: 500;
 .rightCont{
     width: 620px;
 }
+
+@media(max-width:1552px){
+ .leftCont{
+    width: 100%;
+ }  
+ .rightCont{
+    margin: auto;
+ } 
+}
