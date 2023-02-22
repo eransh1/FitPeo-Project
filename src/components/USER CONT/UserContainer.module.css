@@ -1,0 +1,42 @@
+.outerCont{
+    padding: 1rem;
+    background-color: #fafafa;
+    border-radius: 15px;
+    height: 95.5%;
+    position: relative;
+}
+.top{
+    width: 100%;
+    background-color: rgb(83, 127, 231);
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 120px;
+}
+
+.threeDots{
+    color: white;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.userImagePhoto{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    bottom: -50px;
+    left: 125px;
+    z-index: 10;
+}
+.userName_infoCont{
+    width: 100%;
+    margin-top: 160px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 2rem;
+}

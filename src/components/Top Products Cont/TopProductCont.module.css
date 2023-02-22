@@ -1,0 +1,93 @@
+.outerCont{
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: #fafafa;
+}
+.top{
+    display: flex;
+    align-items: center;
+}
+.top h3{
+    font-weight: 500;
+}
+.topOptionCont{
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: auto;
+    position: relative;
+}
+.topOptionCont span{
+    display: flex;
+}
+.subOptionCont{
+    padding: .5rem;
+    position: absolute;
+    background-color: #fafafa;
+    z-index: 2;
+    top: 3rem;
+    border-radius: 5px;
+    border: 1px solid grey;
+    cursor: default;
+}
+.subOptionCont p{
+    cursor: pointer;
+    margin-bottom: .25rem;
+    border-radius: 3px;
+    text-align: center;
+}
+.subOptionCont p:hover{
+    background-color: rgb(83, 127, 231);
+    color: white;
+}
+
+.listCont{
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 250px;
+    overflow-y: scroll;
+}
+
+.listCont::-webkit-scrollbar {
+    display: none;
+}
+
+.listItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.numCont{
+    width: 40px;
+    height: 40px;
+    border-radius: 11px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(83, 127, 231);
+    color: #fafafa;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.listInfoCont{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.2rem;
+}
+
+.listInfoCont p{
+    color: grey;
+}
+.listInfoCont h3{
+    font-weight: 500;
+}
+.listValue{
+    padding: .5rem ;
+    border-radius: 8px;
+    margin-left: auto;
+    background-color: rgba(201, 203, 207, 0.3);
+}

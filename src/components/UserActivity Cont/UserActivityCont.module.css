@@ -1,0 +1,61 @@
+.outerCont{
+    padding: 1rem;
+    background-color: #fafafa;
+    border-radius: 15px;
+    height: 320px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+}
+.top h3{
+    font-weight: 500;
+}
+.topOptionCont{
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: auto;
+    position: relative;
+}
+.topOptionCont span{
+    display: flex;
+}
+.subOptionCont{
+    padding: .5rem;
+    position: absolute;
+    background-color: #fafafa;
+    z-index: 2;
+    top: 3rem;
+    border-radius: 5px;
+    border: 1px solid grey;
+    cursor: default;
+}
+.subOptionCont p{
+    cursor: pointer;
+    margin-bottom: .25rem;
+    border-radius: 3px;
+    text-align: center;
+}
+.subOptionCont p:hover{
+    background-color: rgb(83, 127, 231);
+    color: white;
+}
+
+.middle{
+    margin-top: .25rem;
+}
+.middle p{
+    color: grey;
+}
+.middle h3{
+    font-weight: 500;
+}
+.bottom{
+    margin-top: 2.5rem;
+    width: 100%;
+}

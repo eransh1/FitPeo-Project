@@ -25,3 +25,6 @@
 .overViewCont,.uaOsTpCont{
     margin-top: 1rem;
 }
+.userActivityCont,.orderStatsCont,.topProductsCont{
+    width: 318px;
+}

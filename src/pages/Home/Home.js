@@ -5,6 +5,10 @@ import styles from "./Home.module.css"
 import revOrdCusData from "../../data/RevOrdCusData"
 import RevOrdCusCont from '../../components/REVORDCUS Container/RevOrdCusCont'
 import OverViewCont from '../../components/OverView Cont/OverViewCont'
+import UserActivityCont from '../../components/UserActivity Cont/UserActivityCont'
+import OrderStatsCont from '../../components/OrderStats Cont/OrderStatsCont'
+import TopProductCont from '../../components/Top Products Cont/TopProductCont'
+import UserContainer from '../../components/USER CONT/UserContainer'
 
 const Home = () => {
   return (
@@ -30,11 +34,17 @@ const Home = () => {
             {/* USER Activity ORDER STATS TOP PRODUCTS CONT */}
             <div className={styles.uaOsTpCont}>
                 {/* USER ACTIVITY CONT */}
-                <div className={styles.userActivityCont}></div>
+                <div className={styles.userActivityCont}>
+                  <UserActivityCont/>
+                </div>
                 {/* ORDER STATS CONT */}
-                <div className={styles.orderStatsCont}></div>
+                <div className={styles.orderStatsCont}>
+                  <OrderStatsCont/>
+                </div>
                 {/* TOP PRODUCTS CONT */}
-                <div className={styles.topProductsCont}></div>
+                <div className={styles.topProductsCont}>
+                  <TopProductCont/>
+                </div>
             </div>
             </div>
             
@@ -42,7 +52,9 @@ const Home = () => {
             
             
             {/* RIGHTMOST CONT */}
-            <div className={styles.userInfoRightCont}></div>
+            <div className={styles.userInfoRightCont}>
+              <UserContainer/>
+            </div>
             </div>
             </div>
         </div>

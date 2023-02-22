@@ -1,0 +1,12 @@
+.outerCont{
+    padding: 1rem;
+    background-color: #fafafa;
+    border-radius: 15px;
+}
+
+.title{
+    font-weight: 500;
+}
+.chartCont{
+    width: 100%;
+}

@@ -1,0 +1,14 @@
+.product_followerList{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.prodList,.followerList{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+.prodList{
+    border-right: 1px solid grey;
+}
