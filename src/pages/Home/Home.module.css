@@ -76,7 +76,10 @@
     .middleEntireDataCont{
         width: 72%;
     }
-    
+    .userActivityCont,.orderStatsCont,.topProductsCont{
+        width: 325px;
+        margin: auto;
+    }
 }
 @media(max-width:1535px){
    .innerCont{

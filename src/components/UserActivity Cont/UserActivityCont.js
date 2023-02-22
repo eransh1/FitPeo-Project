@@ -44,7 +44,7 @@ const UserActivityCont = () => {
         </div>
 
         <div className={styles.bottom}>
-        <Line data={activityData} />
+        <Line className={styles.lineChart} data={activityData} />
         </div>
     </section>
   )
